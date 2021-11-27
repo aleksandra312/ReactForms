@@ -34,20 +34,20 @@ const NewBoxForm = ({ addBox }) => {
         value={formData.color}
         onChange={handleChange}
       />
-      <label htmlFor="width">Width:{formData.width}</label>
+      <label htmlFor="width">Width</label>
       <input
         id="width"
-        type="range"
+        type="number"
         name="width"
         min="5"
         max="30"
         value={formData.width}
         onChange={handleChange}
       />
-      <label htmlFor="height">Height:{formData.height}</label>
+      <label htmlFor="height">Height</label>
       <input
         id="height"
-        type="range"
+        type="number"
         name="height"
         min="5"
         max="30"
